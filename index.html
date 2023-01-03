@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sofiane BELKHIR - Développeur Full-Stack</title>
+    <link
+      rel="shortcut icon"
+      href="https://avatars.githubusercontent.com/u/72196033?v=4"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light navbar-scroll"
+      id="navigation"
+    >
+      <button
+        class="navbar-toggler ml-auto hidden-sm-up float-xs-right"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav my-2 my-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link active" href="#home"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="d-flex p-2 conteneur" id="home">
+      <div class="text_title animate__animated animate__backInDown">
+        <p>Meet <span class="name">Sofiane</span></p>
+        <span class="word">{ a software </span>
+        <span>engineer</span>
+        <span class="word">}</span>
+      </div>
+      <img
+        src="./images/—Pngtree—indoor workspace with computer element_5361909_500x500_via_10015_io.png"
+        class="rounded mx-auto d-block animate__animated animate__bounce"
+        alt="Desktop sofiane"
+        id="desktop"
+      />
+    </section>
+    <hr />
+    <section
+      class="d-flex p-0 conteneur animate__animated animate__backInLeft"
+      id="about"
+    >
+      <div class="text_element">
+        <p class="title">About</p>
+      </div>
+      <div id="card">
+        <div class="card-head"></div>
+        <div class="image-crop">
+          <img id="avatar" src="/images/sofiane.png" alt="Avatar Picture" />
+        </div>
+        <div id="bio">
+          <p>
+            Welcome to my site! I am a software engineer based in Paris, France,
+            who is passionate about algorithms and programming languages.
+            <br />
+            <br />
+            I graduated from sorbonne university in Science and Software
+            Technology master (STL) .
+          </p>
+        </div>
+        <div id="telechargement">
+          <a
+            href="./images/CV_Sofiane_BELKHIR.pdf"
+            download="CV_Sofiane_BELKHIR.pdf"
+          >
+            <button type="button" class="btn btn-outline-primary">
+              curriculum vitae
+            </button></a
+          >
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section class="d-flex p-2 conteneur" id="projects">
+      <div class="text_element">
+        <p class="title">Projects</p>
+      </div>
+      <div class="main-container">
+        <div class="cards">
+          <div class="card card-1">
+            <div class="card__icon"><i class="fas fa-bolt"></i></div>
+            <h2 class="card__title">
+              Compression d'un arbre binaire de recherche
+            </h2>
+            <p class="card__apply">
+              <a
+                class="card__link"
+                href="https://github.com/SofianeBelk/ArbreCompression"
+                >Get code<i class="fas fa-arrow-right"></i
+              ></a>
+            </p>
+          </div>
+          <div class="card card-2">
+            <div class="card__icon"><i class="fas fa-bolt"></i></div>
+            <h2 class="card__title">Typeur de Lambda-Calcul</h2>
+            <p class="card__apply">
+              <a
+                class="card__link"
+                href="https://github.com/SofianeBelk/LambdaCalcul"
+                >Get code <i class="fas fa-arrow-right"></i
+              ></a>
+            </p>
+          </div>
+          <div class="card card-3">
+            <div class="card__icon"><i class="fas fa-bolt"></i></div>
+            <h2 class="card__title">
+              Implementation d'une mini-copie du jeu Lemmings
+            </h2>
+            <p class="card__apply">
+              <a
+                class="card__link"
+                href="https://github.com/SofianeBelk/lemmings"
+                >Get code <i class="fas fa-arrow-right"></i
+              ></a>
+            </p>
+          </div>
+          <div class="card card-4">
+            <div class="card__icon"><i class="fas fa-bolt"></i></div>
+            <h2 class="card__title">
+              TrainLine une application de réservation des billets de train.
+            </h2>
+            <p class="card__apply">
+              <a class="card__link" href="https://github.com/SofianeBelk/train"
+                >Get code <i class="fas fa-arrow-right"></i
+              ></a>
+            </p>
+          </div>
+          <div class="card card-5">
+            <div class="card__icon"><i class="fas fa-bolt"></i></div>
+            <h2 class="card__title">
+              Localisation de features dans une application web via la création
+              d'une extension de VsCode.
+            </h2>
+            <p class="card__apply">
+              <a
+                class="card__link"
+                href="https://github.com/SofianeBelk/feationlocation"
+                >Get code <i class="fas fa-arrow-right"></i
+              ></a>
+            </p>
+          </div>
+          <div class="card card-6">
+            <div class="card__icon"><i class="fas fa-bolt"></i></div>
+            <h2 class="card__title">Moteur de recherche d’une bibliothèque.</h2>
+            <p class="card__apply">
+              <a
+                class="card__link"
+                href="https://github.com/Aminekhma/BookMe_FinalProject"
+                >Get code <i class="fas fa-arrow-right"></i
+              ></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section class="d-flex p-2 conteneur" id="skills">
+      <div class="text_element">
+        <p class="title">Skills</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <a href="https://dev.java/"
+              ><img class="icon" src="./images/java_icon.png" alt="java"
+            /></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <a href="https://ocaml.org/"
+              ><img class="icon" src="./images/ocaml.png" alt="ocaml"
+            /></a>
+          </div>
+          <div class="col">
+            <a href="https://www.haskell.org/"
+              ><img class="icon" src="./images/haskell.png" alt="haskell"
+            /></a>
+          </div>
+          <div class="col">
+            <a href="https://www.python.org/"
+              ><img class="icon" src="./images/python.png" alt="python"
+            /></a>
+          </div>
+          <div class="col">
+            <a href="https://go.dev/"
+              ><img class="icon" src="./images/golang.png" alt="golang"
+            /></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <a href="https://spring.io/projects/spring-boot">
+              <img class="icon" src="./images/spring.png" alt="spring boot" />
+            </a>
+          </div>
+          <div class="col">
+            <a href="https://angular.io/">
+              <img class="icon" src="./images/angular.png" alt="Angular" />
+            </a>
+          </div>
+          <div class="col">
+            <a href="https://www.djangoproject.com/">
+              <img class="icon" src="./images/django.png" alt="Django" />
+            </a>
+          </div>
+          <div class="col">
+            <a href="https://www.typescriptlang.org/">
+              <img
+                class="icon"
+                src="./images/typescript.png"
+                alt="TypeScript"
+              />
+            </a>
+          </div>
+          <div class="col">
+            <a href="https://www.open-std.org/">
+              <img class="icon" src="./images/c.png" alt="Langage C" />
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <a href="https://www.scala-lang.org/">
+              <img class="icon" src="./images/scala.png" alt="Scala" />
+            </a>
+          </div>
+          <div class="col">
+            <a href="https://dev.w3.org/html5/spec-LC/">
+              <img class="icon" src="./images/html.png" alt="HTML5" />
+            </a>
+          </div>
+          <div class="col">
+            <a href="https://www.w3.org/Style/CSS/specs.en.html">
+              <img class="icon" src="./images/css.png" alt="CSS3" />
+            </a>
+          </div>
+          <div class="col">
+            <a href="https://www.javascript.com/">
+              <img class="icon" src="./images/js.png" alt="JS" />
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <a href="https://www.mysql.com/">
+              <img class="icon" src="./images/sql.png" alt="MySQL" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section class="d-flex p-2 conteneur" id="contact">
+      <div class="text_element">
+        <p class="title">Contact</p>
+      </div>
+
+      <div class="wrapper">
+        <a class="hover-fx"><i class="fab fa-linkedin"></i></a>
+        <a class="hover-fx"><i class="fab fa-github"></i></a>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <span>
+              <i class="fas fa-home me-3 text-secondary"></i> Paris, France
+            </span>
+          </div>
+          <div class="col">
+            <span>
+              <i class="fas fa-envelope me-3 text-secondary"></i>
+              sofiane.belkhir@outlook.com</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <!-- Copyright -->
+      <div class="text-center p-3" style="font-weight: lighter">
+        © 2023 Sofiane Belkhir
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
